@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-We include the following dataset configurations in this repo: 
+We include the following dataset configurations, you can download the dataset from [OneDrive](https://1drv.ms/f/c/69a773fee5342110/Eo2k4_Rxk4xLvYnLgP7YVccBytHqIKTqheVp1cKmZ8XXtw?e=beZeh6) and [BaiDu Disk](https://pan.baidu.com/s/1gg1vLA9AICISjOksge2v8g?pwd=USTC): 
 ```
 AquaOV255, dutuseg, mas3k, SUIM, USIS10K, usis16k.
 ```
@@ -32,7 +32,7 @@ AquaOV255, dutuseg, mas3k, SUIM, USIS10K, usis16k.
 ## Model evaluation
 Please modify some settings in `configs/base_config.py` before running the evaluation.
 
-For **DepthAnything Model** and **Open-CLIP Model** please download from their official website and put them in `./pretrained_ckpt/`.
+For **DepthAnything Model** and **Open-CLIP Model** please download from their official website or our [LINK](https://1drv.ms/f/c/69a773fee5342110/Es-h3W58AfVKkaqbgZHHxtoB97YPTtrl2lWUAw_64kma5A?e=Hk9Puc) and put them in `./pretrained_ckpt/`.
 
 Evaluation on all datasets:
 ```
