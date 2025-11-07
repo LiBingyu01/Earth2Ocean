@@ -3,7 +3,7 @@
 <h1>Exploring the Underwater World Segmentation without Extra Training</h1>
 
 
-<img src="assets/framework.jpg" width="700px"/>
+<img src="assets/Earth2Ocean.gif" width="700px"/>
 
 </div>
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-We include the following dataset configurations in [onedrive](https://1drv.ms/f/c/69a773fee5342110/Ekl8UhVklPJHmt11V7EDJmQBu_gku2NoKdGf5UfxhuQ2yQ?e=HXEjj5) or [Baidu Disk](https://pan.baidu.com/s/1HWRB1vZKzC3KzyFNaZTBmQ?pwd=USTC): 
+We include the following dataset configurations in this repo: 
 ```
 AquaOV255, dutuseg, mas3k, SUIM, USIS10K, usis16k.
 ```
