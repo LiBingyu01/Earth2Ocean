@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-We include the following dataset configurations in this [link](https://1drv.ms/f/c/69a773fee5342110/Ekl8UhVklPJHmt11V7EDJmQBu_gku2NoKdGf5UfxhuQ2yQ?e=HXEjj5): 
+We include the following dataset configurations in [onedrive](https://1drv.ms/f/c/69a773fee5342110/Ekl8UhVklPJHmt11V7EDJmQBu_gku2NoKdGf5UfxhuQ2yQ?e=HXEjj5) or [Baidu Disk](https://pan.baidu.com/s/1HWRB1vZKzC3KzyFNaZTBmQ?pwd=USTC): 
 ```
 AquaOV255, dutuseg, mas3k, SUIM, USIS10K, usis16k.
 ```
