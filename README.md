@@ -40,3 +40,14 @@ sh run.sh
 ```
 
 The results will be saved in `./work_logs/`.
+
+
+## Cite our paper
+```
+@article{li2025exploring,
+  title={Exploring the Underwater World Segmentation without Extra Training},
+  author={Li, Bingyu and Huo, Tao and Zhang, Da and Zhao, Zhiyuan and Gao, Junyu and Li, Xuelong},
+  journal={arXiv preprint arXiv:2511.07923},
+  year={2025}
+}
+```
