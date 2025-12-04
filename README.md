@@ -2,7 +2,7 @@
 
 <h1>Exploring the Underwater World Segmentation without Extra Training</h1>
 
-
+<img src="assets/Earth2Ocean_Fun_Guide.png" width="700px"/>
 
 <img src="assets/Earth2Ocean.gif" width="700px"/>
 
