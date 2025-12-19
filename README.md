@@ -2,6 +2,8 @@
 
 <h1>Exploring the Underwater World Segmentation without Extra Training</h1>
 
+[Paper](https://arxiv.org/pdf/2511.07923) &nbsp;&nbsp;&nbsp;&nbsp; [Open-sourced Datasets](https://1drv.ms/f/c/69a773fee5342110/Eo2k4_Rxk4xLvYnLgP7YVccBytHqIKTqheVp1cKmZ8XXtw?e=beZeh6)
+
 <img src="assets/Earth2Ocean_Fun_Guide.png" width="700px"/>
 
 <img src="assets/Earth2Ocean.gif" width="700px"/>
