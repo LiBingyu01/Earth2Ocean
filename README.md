@@ -30,6 +30,38 @@ We include the following dataset configurations, you can download the dataset fr
 ```
 AquaOV255, dutuseg, mas3k, SUIM, USIS10K, usis16k.
 ```
+I have find the errors.
+For AquaOV255, please delete *Catfish_112.png* and use the following scrpt to relabel some masks.
+```
+import numpy as np
+from PIL import Image
+import os
+
+
+paths = [
+    "datasets/AquaOV255/masks/Lanternfish_003.png",
+    "datasets/AquaOV255/masks/Lanternfish_001.png",
+    "datasets/AquaOV255/masks/Lanternfish_002.png",
+]
+
+save_dir = "datasets/AquaOV255/masks"
+os.makedirs(save_dir, exist_ok=True)
+
+for path in paths:
+    mask = np.array(Image.open(path))
+
+    if mask.ndim != 2:
+        raise ValueError(f"Not single-channel mask: {path}, shape={mask.shape}")
+
+    mask = mask.astype(np.uint16)
+    mask[mask == 254] = 206
+
+    filename = os.path.basename(path)
+    save_path = os.path.join(save_dir, filename)
+
+    Image.fromarray(mask, mode="I;16").save(save_path)
+    print(f"[SAVED] {save_path}")
+```
 
 
 ## Model evaluation
