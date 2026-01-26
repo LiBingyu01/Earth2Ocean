@@ -31,7 +31,7 @@ We include the following dataset configurations, you can download the dataset fr
 AquaOV255, dutuseg, mas3k, SUIM, USIS10K, usis16k.
 ```
 I have find the errors.
-For AquaOV255, please delete *Catfish_112.png* and use the following scrpt to relabel some masks.
+For AquaOV255, please delete *images/Catfish_112.png* *masks/Catfish_112.jpg* and use the following scrpt to relabel some masks.
 ```
 import numpy as np
 from PIL import Image
