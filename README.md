@@ -4,7 +4,7 @@
 
 **⭐Accepted to CVPR 2026⭐**
 
-[Paper](https://arxiv.org/pdf/2511.07923) &nbsp;&nbsp;&nbsp;&nbsp; [Open-sourced Datasets](https://1drv.ms/f/c/69a773fee5342110/Eo2k4_Rxk4xLvYnLgP7YVccBytHqIKTqheVp1cKmZ8XXtw?e=beZeh6)
+[Paper](https://arxiv.org/pdf/2511.07923) &nbsp;&nbsp;&nbsp;&nbsp; [Open-sourced Datasets(HF)](https://huggingface.co/datasets/kkk2026/UOVSBench) &nbsp;&nbsp;&nbsp;&nbsp; [Open-sourced Datasets](https://1drv.ms/f/c/69a773fee5342110/Eo2k4_Rxk4xLvYnLgP7YVccBytHqIKTqheVp1cKmZ8XXtw?e=beZeh6) 
 
 <img src="assets/Earth2Ocean.gif" width="700px"/>
 
